@@ -11,9 +11,12 @@ interface Origin {
 }
 
 enum Size {
+   Tiny,
    Small,
    Medium,
-   Large
+   Large,
+   Huge,
+   Gargantuan
 }
 
 interface Trait {
