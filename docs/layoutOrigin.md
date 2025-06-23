@@ -1,13 +1,13 @@
 ## Origin Object
 
-```
-Origin{
- string Name
- List<AbilityScore> AbilityScore
- Size Size
- int Speed
- string? CreatureType
- List<Trait> Traits
+```typescript
+interface Origin {
+ string Name;
+ List<AbilityScore> AbilityScore;
+ Size Size;
+ int Speed;
+ string? CreatureType;
+ List<Trait> Traits;
 }
 
 enum Size {
@@ -16,22 +16,22 @@ enum Size {
 	Large
 }
 
-Trait {
- string Name
- string Description
+interface Trait {
+ string Name;
+ string Description;
 }
 
-AbilityScore {
-  Ability Ability
-  int Amount
+interface AbilityScore {
+  Ability Ability;
+  int Amount;
 }
 
 enum Ability {
-   Strenth
-   Dexterity
-   Constitution
-   Intelligence
-   Wisdom
+   Strength,
+   Dexterity,
+   Constitution,
+   Intelligence,
+   Wisdom,
    Charisma
 }
 ```
