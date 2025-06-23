@@ -19,6 +19,7 @@
     "@heroui/snippet": "2.2.23",
     "@heroui/switch": "2.2.20",
     "@heroui/system": "2.4.18",
+    "@heroui/table": "^2.2.21",
     "@heroui/theme": "2.4.17",
     "@opentelemetry/api-logs": "^0.57.2",
     "@opentelemetry/instrumentation": "^0.57.2",
