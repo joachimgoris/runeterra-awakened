@@ -11,9 +11,9 @@ Origin{
 }
 
 enum Size {
-	Small,
-	Medium,
-	Large
+   Small,
+   Medium,
+   Large
 }
 
 Trait {
