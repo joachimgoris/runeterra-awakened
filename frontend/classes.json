@@ -1,0 +1,441 @@
+{
+    "classes": [
+        {
+            "id": 1,
+            "originalName": "Artificer",
+            "newName": "Tinkerer",
+            "description": "A master of invention and craft, the Tinkerer uses a blend of magic and mechanical ingenuity to create devices that aid in both combat and problem-solving.",
+            "levels": [
+                {
+                    "level": 1,
+                    "skills": [
+                        "Basic Tinkering",
+                        "Minor Gadget"
+                    ]
+                },
+                {
+                    "level": 2,
+                    "skills": [
+                        "Advanced Tinkering",
+                        "Major Gadget"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "originalName": "Barbarian",
+            "newName": "Brute",
+            "description": "The Brute is a fierce warrior, known for raw strength and resilience. They excel in close combat, using their physical prowess to overpower foes.",
+            "levels": [
+                {
+                    "level": 1,
+                    "skills": [
+                        "Basic Strike",
+                        "Toughness"
+                    ]
+                },
+                {
+                    "level": 2,
+                    "skills": [
+                        "Advanced Strike",
+                        "Greater Toughness"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "originalName": "Bard",
+            "newName": "Minstrel",
+            "description": "The Minstrel is a charismatic performer, using music and magic to inspire allies and hinder enemies. Their abilities often enhance the capabilities of their companions.",
+        },
+        {
+            "id": 4,
+            "originalName": "Cleric",
+            "newName": "Acolyte",
+            "description": "The Acolyte is a devout follower of a deity or cause, wielding divine magic to heal and protect allies while also being capable of smiting foes."
+        },
+        {
+            "id": 5,
+            "originalName": "Druid",
+            "newName": "Shaman",
+            "description": "The Shaman draws power from the natural world, using it to cast spells and summon creatures. They are protectors of nature and balance."
+        },
+        {
+            "id": 6,
+            "originalName": "Fighter",
+            "newName": "Veteran",
+            "hitDice": "1d10",
+            "primaryAbility": [
+                "Strength",
+                "Dexterity"
+            ],
+            "savingThrows": [
+                "Strength",
+                "Constitution"
+            ],
+            "proficiencies": {
+                "armor": [
+                    "All armor",
+                    "Shields"
+                ],
+                "weapons": [
+                    "Simple weapons",
+                    "Martial weapons"
+                ],
+                "tools": [],
+                "skills": [
+                    "Acrobatics",
+                    "Animal Handling",
+                    "Athletics",
+                    "History",
+                    "Insight",
+                    "Intimidation",
+                    "Perception",
+                    "Survival"
+                ]
+            },
+            "description": "The Veteran is a seasoned combatant, skilled in a wide array of weapons and armor. They are versatile warriors, adaptable to any combat situation.",
+            "levels": [
+                {
+                    "level": 1,
+                    "skills": [
+                        {
+                            "name": "Fighting Style",
+                            "description": "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again."
+                        },
+                        {
+                            "name": "Second Wind",
+                            "description": "You have a limited well of stamina. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. You must finish a short or long rest before you can use it again."
+                        }
+                    ]
+                },
+                {
+                    "level": 2,
+                    "skills": [
+                        {
+                            "name": "Action Surge",
+                            "description": "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once used, finish a short or long rest to use it again."
+                        }
+                    ]
+                },
+                {
+                    "level": 3,
+                    "skills": [
+                        {
+                            "name": "Martial Archetype",
+                            "description": "At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques."
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "skills": [
+                        {
+                            "name": "Ability Score Improvement",
+                            "description": "You can increase one ability score of your choice by 2, or two ability scores by 1. You can’t increase an ability score above 20 using this feature."
+                        },
+                        {
+                            "name": "Martial Versatility",
+                            "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can also replace a fighting style you know with another style available."
+                        }
+                    ]
+                },
+                {
+                    "level": 5,
+                    "skills": [
+                        {
+                            "name": "Extra Attack",
+                            "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+                        }
+                    ]
+                },
+                {
+                    "level": 6,
+                    "skills": [
+                        {
+                            "name": "Ability Score Improvement",
+                            "description": "You can increase one ability score of your choice by 2, or two ability scores by 1."
+                        }
+                    ]
+                },
+                {
+                    "level": 7,
+                    "skills": [
+                        {
+                            "name": "Martial Archetype Feature",
+                            "description": "You gain a feature from your chosen Martial Archetype."
+                        }
+                    ]
+                },
+                {
+                    "level": 8,
+                    "skills": [
+                        {
+                            "name": "Ability Score Improvement",
+                            "description": "Increase ability scores by 2 or split +1/+1."
+                        }
+                    ]
+                },
+                {
+                    "level": 9,
+                    "skills": [
+                        {
+                            "name": "Indomitable",
+                            "description": "You can reroll a saving throw that you fail. You must use the new roll, and you can’t use this feature again until you finish a long rest."
+                        }
+                    ]
+                },
+                {
+                    "level": 10,
+                    "skills": [
+                        {
+                            "name": "Martial Archetype Feature",
+                            "description": "You gain another feature from your chosen Martial Archetype."
+                        }
+                    ]
+                },
+                {
+                    "level": 11,
+                    "skills": [
+                        {
+                            "name": "Extra Attack (2)",
+                            "description": "You can attack three times, instead of twice, whenever you take the Attack action on your turn."
+                        }
+                    ]
+                },
+                {
+                    "level": 12,
+                    "skills": [
+                        {
+                            "name": "Ability Score Improvement",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "level": 13,
+                    "skills": [
+                        {
+                            "name": "Indomitable (2 uses)",
+                            "description": "You can use Indomitable twice between long rests."
+                        }
+                    ]
+                },
+                {
+                    "level": 14,
+                    "skills": [
+                        {
+                            "name": "Ability Score Improvement",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "level": 15,
+                    "skills": [
+                        {
+                            "name": "Martial Archetype Feature",
+                            "description": "You gain another feature from your chosen Martial Archetype."
+                        }
+                    ]
+                },
+                {
+                    "level": 16,
+                    "skills": [
+                        {
+                            "name": "Ability Score Improvement",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "level": 17,
+                    "skills": [
+                        {
+                            "name": "Action Surge (2 uses)",
+                            "description": "You can use Action Surge twice between rests."
+                        },
+                        {
+                            "name": "Indomitable (3 uses)",
+                            "description": "You can use Indomitable three times between long rests."
+                        }
+                    ]
+                },
+                {
+                    "level": 18,
+                    "skills": [
+                        {
+                            "name": "Martial Archetype Feature",
+                            "description": "You gain another feature from your chosen Martial Archetype."
+                        }
+                    ]
+                },
+                {
+                    "level": 19,
+                    "skills": [
+                        {
+                            "name": "Ability Score Improvement",
+                            "description": ""
+                        }
+                    ]
+                },
+                {
+                    "level": 20,
+                    "skills": [
+                        {
+                            "name": "Extra Attack (3)",
+                            "description": "You can attack four times with the Attack action."
+                        }
+                    ]
+                }
+            ],
+            "subclasses": [
+                {
+                    "id": "champion",
+                    "name": "Champion",
+                    "description": "The Champion focuses on the development of raw physical power honed to deadly perfection.",
+                    "features": [
+                        {
+                            "level": 3,
+                            "name": "Improved Critical",
+                            "description": "Your weapon attacks score a critical hit on a roll of 19 or 20."
+                        },
+                        {
+                            "level": 7,
+                            "name": "Remarkable Athlete",
+                            "description": "You can add half your proficiency bonus (rounded up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus."
+                        },
+                        {
+                            "level": 10,
+                            "name": "Additional Fighting Style",
+                            "description": "You can choose a second option from the Fighting Style class feature."
+                        },
+                        {
+                            "level": 15,
+                            "name": "Superior Critical",
+                            "description": "Your weapon attacks score a critical hit on a roll of 18–20."
+                        },
+                        {
+                            "level": 18,
+                            "name": "Survivor",
+                            "description": "You regain hit points equal to 5 + your Constitution modifier at the start of your turn if you have no more than half your hit points left."
+                        }
+                    ]
+                },
+                {
+                    "id": "battlemaster",
+                    "name": "Battle Master",
+                    "description": "The Battle Master uses martial techniques and maneuvers to control the battlefield with calculated precision.",
+                    "features": [
+                        {
+                            "level": 3,
+                            "name": "Combat Superiority",
+                            "description": "You learn maneuvers that are fueled by superiority dice (d8). You can use them to enhance attacks and defense."
+                        },
+                        {
+                            "level": 7,
+                            "name": "Know Your Enemy",
+                            "description": "You can spend at least 1 minute observing or interacting with another creature outside combat to learn information about it."
+                        },
+                        {
+                            "level": 10,
+                            "name": "Improved Combat Superiority",
+                            "description": "Your superiority dice turn into d10s. At level 18, they become d12s."
+                        },
+                        {
+                            "level": 15,
+                            "name": "Relentless",
+                            "description": "When you roll initiative and have no superiority dice remaining, you regain one."
+                        },
+                        {
+                            "level": 18,
+                            "name": "Improved Combat Superiority (d12)",
+                            "description": "Your superiority dice turn into d12s at this level, increasing the effectiveness of your maneuvers."
+                        }
+                    ]
+                },
+                {
+                    "id": "eldritch-knight",
+                    "name": "Eldritch Knight",
+                    "description": "The Eldritch Knight blends martial prowess with magic, learning spells to enhance combat.",
+                    "features": [
+                        {
+                            "level": 3,
+                            "name": "Spellcasting",
+                            "description": "You gain the ability to cast spells, choosing from the wizard spell list with a focus on abjuration and evocation."
+                        },
+                        {
+                            "level": 3,
+                            "name": "Weapon Bond",
+                            "description": "You perform a ritual that bonds a weapon to you. You can summon it instantly and cannot be disarmed of it."
+                        },
+                        {
+                            "level": 7,
+                            "name": "War Magic",
+                            "description": "When you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
+                        },
+                        {
+                            "level": 10,
+                            "name": "Eldritch Strike",
+                            "description": "When you hit a creature with a weapon attack, it has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+                        },
+                        {
+                            "level": 15,
+                            "name": "Arcane Charge",
+                            "description": "When you use Action Surge, you can teleport up to 30 feet to an unoccupied space you can see."
+                        },
+                        {
+                            "level": 18,
+                            "name": "Improved War Magic",
+                            "description": "When you use your action to cast a spell, you can make one weapon attack as a bonus action.",
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "originalName": "Monk",
+            "newName": "Disciple",
+            "description": "The Disciple is a martial artist, harnessing their body's energy to perform extraordinary feats of agility and strength. They often follow a strict code or philosophy."
+        },
+        {
+            "id": 8,
+            "originalName": "Paladin",
+            "newName": "Faithful",
+            "description": "The Faithful is a holy warrior, sworn to uphold justice and righteousness. They combine martial prowess with divine magic to smite enemies and protect the innocent."
+        },
+        {
+            "id": 9,
+            "originalName": "Ranger",
+            "newName": "Hunter",
+            "description": "The Hunter is a skilled tracker and survivor, adept at navigating and thriving in the wilderness. They are deadly with ranged weapons and have a deep connection with nature."
+        },
+        {
+            "id": 10,
+            "originalName": "Rogue",
+            "newName": "Scoundrel",
+            "description": "The Scoundrel is a cunning and stealthy operative, excelling in deception and surprise attacks. They are adept at infiltrating and navigating through enemy lines unseen."
+        },
+        {
+            "id": 11,
+            "originalName": "Sorcerer",
+            "newName": "Arcanist",
+            "description": "The Arcanist wields innate magical power, bending reality to their will. Their magic is intuitive and deeply personal, drawn from an inner wellspring of arcane energy."
+        },
+        {
+            "id": 12,
+            "originalName": "Warlock",
+            "newName": "Cultist",
+            "description": "The Cultist gains power through pacts with otherworldly entities. Their abilities are granted by these patrons, often at a cost that reflects their dark bargains."
+        },
+        {
+            "id": 13,
+            "originalName": "Wizard",
+            "newName": "Runemage",
+            "description": "The Runemage is a scholar of the arcane, using spells drawn from ancient texts and relentless study. They are masters of magical theory and can wield a vast array of spells."
+        }
+    ]
+}
