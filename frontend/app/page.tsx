@@ -42,27 +42,3 @@ export default function Home() {
     </Table>
   );
 }
-
-interface Race {
-  CreatureType: CreatureType;
-  Size: Size[];
-  BaseSpeed: number;
-  ActualSpeed: number;
-  Traits: Trait[];
-}
-
-interface Trait {
-  name: string;
-  description: string;
-}
-
-enum Size {
-  Small,
-  Medium,
-  Large,
-}
-
-enum CreatureType {
-  Fey,
-  Fuckifiknow,
-}
