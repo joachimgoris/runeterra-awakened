@@ -1,0 +1,869 @@
+{
+    "origins": [
+        {
+    id: "bilgewater",
+    name: "Bilgewater",
+    description: "A melting pot of sea-scoured myths, dangerous coin, and dangerous people. Bilgewater is as treacherous as the seas it straddles—where monsters lurk in the deeps and superstitions hold weight. To survive here is to embrace chaos, laugh in the face of dread, and carve your joy from ruin.",
+    abilityScoreIncrease: [
+                {
+        key: 6,
+        value: 1,
+                },
+            ],
+    size: "Medium or Small",
+    speed: "30 feet",
+    languages: "Common, Saltcant",
+    age: "Most Bilgewater folk mature by 16 and often live hard, short lives. Sailors, corsairs, and cultists rarely grow old—but a lucky few grow wise.",
+    sizeDescription: "You can be Medium or Small.",
+    traits: [
+                {
+        name: "Shiprat’s Instincts",
+        description: "You gain proficiency in one of the following skills: Perception or Sleight of Hand. If you already have proficiency in both, choose one of them to gain expertise in.",
+                },
+                {
+        name: "Superstitious Grit",
+        description: "You have advantage on saving throws against being frightened. Once per long rest, when you fail a saving throw, you may reroll it. If you do, roll a d6. On a 1, you suffer a strange omen—disadvantage on your first attack or ability check the following day.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "deepcaller",
+        name: "Deepcaller",
+        description: "You’ve heard the songs beneath the waves—whispers of the Bearded Lady, leviathans, or something far older. You are either blessed or cursed by something deep and ancient, and it has marked your soul.",
+        abilityScoreIncrease: [
+                        {
+            key: 5,
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Voices Below",
+            description: "You can activate this ability to communicate telepathically with any creature within 30 feet that understands a language. This communication lasts for 1 minute. You may use this ability a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses after finishing a long rest.",
+                        },
+                        {
+            name: "Deep’s Favor",
+            description: "You know the Thaumaturgy cantrip. At 3rd level, you can cast Arms of Hadar once per long rest, dealing psychic damage instead of necrotic. At 5th level, you can cast Augury once per long rest as a ritual. Wisdom is your spellcasting ability for these spells.",
+                        },
+                        {
+            name: "Omen-Touched",
+            description: "When a creature within 10 feet of you rolls a natural 1 on any d20, you regain 1d4 hit points. This can occur once per turn.",
+                        },
+                    ],
+                },
+                {
+        id: "joyrider",
+        name: "Joyrider",
+        description: "You follow the path of joy beneath suffering, of laughter through loss. The cult of Nilah teaches that pain is inevitable—but to face it smiling is divine. Joyriders are not mere dancers—they are luminous duellists who walk the line between radiant emotion and disciplined ecstasy.",
+        abilityScoreIncrease: [
+                        {
+            key: 2,
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Devotion to Bliss",
+            description: "Your devotion to joy has transcended your natural resistance to being frightened. You are immune to the frightened condition. When a creature attempts to frighten you and you would normally make a saving throw, you instead gain 1d4 temporary hit points.",
+                        },
+                        {
+            name: "Liquid Grace",
+            description: "When you take the Dash action, you can activate this ability. Until the end of your turn, you do not provoke opportunity attacks, and you may move through enemy spaces as if they were unoccupied.",
+                        },
+                    ],
+                },
+                {
+        id: "wharf-rat-corsair",
+        name: "Wharf-Rat Corsair",
+        description: "To some, you’re a brash fool with a sharp tongue. To others, you’re a dancing blade on a slippery deck. Corsairs live and die by their charm, their reflexes, and the poetry of danger. Swagger is armor. Laughter is a weapon.",
+        abilityScoreIncrease: [
+                        {
+            key: 3,
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Cutlass Swagger",
+            description: "You gain proficiency in Persuasion and one martial weapon of your choice. If you already have Persuasion, you instead gain expertise.",
+                        },
+                        {
+            name: "Scurrilous",
+            description: "As a bonus action, you taunt one creature within 30 feet of you that can hear and understand you. Until the end of that creature’s next turn, it has disadvantage on attack rolls against targets other than you.",
+                        },
+                        {
+            name: "Deck Dancer",
+            description: "You have advantage on Acrobatics checks to avoid falling or slipping when moving across precarious surfaces such as ropes, narrow ledges, or slick terrain.",
+                        },
+                    ],
+                },
+            ],
+    imageUrl: bilgewaterPortrait,
+        },
+        {
+    id: "demacia",
+    name: "Demacia",
+    description: "The shining kingdom of law, sacrifice, and resistance to arcane corruption. Founded in the aftermath of ancient cataclysms, Demacia built itself on petricite stone and unwavering ideals. Though unity is its watchword, cracks show between noble order and magical outcasts. To live as a Demacian is to serve something greater than oneself—whether with sword or silence.",
+    abilityScoreIncrease: [
+                {
+        key: 3,
+        value: 1,
+                },
+            ],
+    size: "Medium",
+    speed: "30 feet",
+    languages: "Common, High Demacian",
+    age: "",
+    sizeDescription: "",
+    traits: [
+                {
+        name: "Boon of the Twin Sisters",
+        description: "The ancient blood of Targon's celestial line still flows faintly through your veins, shielding your spirit from external influence. You have advantage on saving throws against being charmed or frightened.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "elite",
+        name: "Elite",
+        description: "Sworn to crown and code, the Demacian Elite are the steel spine of the kingdom—knights, commanders, and guardians of the old order. Where they march, justice follows—or vengeance.",
+        abilityScoreIncrease: [
+                        {
+            key: 1,
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Justice of the Protector",
+            description: "As an action, you may invoke the legacy of the Winged Protector. For 1 minute (or until dismissed), your eyes glow gold and grow spectral wings. Once per turn, you may deal extra radiant damage equal to your level on a hit. Starting at 3rd level, you gain a 30 feet flying speed. You may use this ability once per long rest.",
+                        },
+                        {
+            name: "Vanguard's Wall",
+            description: "When you take damage from a source that would reduce you below half your hit points, you may reduce the damage by your proficiency bonus + your Strength modifier. Once used, you must finish a short or long rest to use this feature again.",
+                        },
+                    ],
+                },
+                {
+        id: "mageborn",
+        name: "Mageborn",
+        description: "Marked by magic in a kingdom that fears it, Mageborn live hidden or hunted lives. Yet within them lies power as old as the world—and perhaps, a chance to change Demacia from within.",
+        abilityScoreIncrease: [
+                        {
+            key: 6,
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Blessing of the Veiled Lady",
+            description: "Once per long rest, as an action, you may force all creatures of your choice within 30 feet to make a Charisma saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). On a failure, they are frightened of you until the end of your next turn.",
+                        },
+                        {
+            name: "Latent Magic",
+            description: "You know one cantrip of your choice from the Arcanist spell list. Charisma is your spellcasting ability for this spell.",
+                        },
+                        {
+            name: "Hidden Spark",
+            description: "When you are the target of a spell, you may unleash a surge of arcane force. One creature within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to your level. You may use this ability once per long rest.",
+                        },
+                    ],
+                },
+            ],
+    imageUrl: demaciaPortrait,
+        },
+        {
+    id: "freljord",
+    name: "Freljord",
+    description: "Freljord is a land of unforgiving winters, sacred oaths, and ancient power. Its people endure with stoic resolve, bound by blood and clan. The tundra does not forgive weakness, and survival is its own kind of glory. From war-torn foothills to glacial tombs, the Freljord breathes cold history—of unity, of war, of gods waiting beneath the ice.",
+    abilityScoreIncrease: [
+                { key: 3, value: 2
+                }, // Constitution +2
+            ],
+    size: "Medium",
+    speed: "30 feet",
+    languages: "Common, Freljordian",
+    age: "Freljordians mature around 17 and may live into their 80s. Those touched by magic or divine blood—especially among the Frostguard—may live far longer.",
+    sizeDescription: "Most Freljordians stand between 5'8\" and 6'5\", with rugged, muscular builds shaped by climate and conflict.",
+    imageUrl: freljordPortrait,
+    traits: [
+                {
+        name: "Cold-Forged Resilience",
+        description: "You have resistance to cold damage, and you ignore penalties from extreme cold environments. You also have advantage on Survival checks made in snowy or frozen terrain.",
+                },
+                {
+        name: "Tribal Upbringing",
+        description: "You gain proficiency in one of the following skills: Athletics, Animal Handling, or Survival.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "avarosan",
+        name: "Avarosan",
+        description: "You are a child of hope and unity—descended from the tribe that dreams of uniting the Freljord through diplomacy, resilience, and shared purpose. Your voice may be quiet, but it can move mountains.",
+        abilityScoreIncrease: [
+                        { key: 6, value: 1
+                        }
+                    ], // Charisma +1
+        traits: [
+                        {
+            name: "Voice of Peace",
+            description: "You gain proficiency in Persuasion. Once per short rest, you may make a Persuasion check with advantage.",
+                        },
+                        {
+            name: "Strength in Unity",
+            description: "When you make an attack roll or an ability check, you may add a +1 bonus to the roll if you are within 10 feet of at least one conscious ally. This bonus increases to +2 if you are adjacent to two or more allies. You do not gain this benefit if you are incapacitated or frightened.",
+                        },
+                        {
+            name: "Mercy of the Frostmother",
+            description: "When an ally within 20 feet of you takes damage that would reduce them to 0 hit points, you may use your reaction to reduce them to 1 hit point instead. Once you use this feature, you can’t use it again until you finish a long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "frostguard",
+        name: "Frostguard",
+        description: "Keepers of ancient secrets and servants of something older than ice. Your blood may carry the touch of the Iceborn, or something darker.",
+        abilityScoreIncrease: [
+                        { key: 4, value: 1
+                        }
+                    ], // Intelligence +1
+        traits: [
+                        {
+            name: "Whispers of the Watchers",
+            description: "You gain proficiency in Arcana or Religion (your choice). Once per long rest, when dealing with magic related to cold, time, or ancient ruins, you may roll the check with advantage.",
+                        },
+                        {
+            name: "Rimebound Magic",
+            description: "You know the Frostbite cantrip. At 3rd level, you may cast Armor of Agathys once per long rest. At 5th level, you may cast Hold Person once per long rest. Intelligence is your spellcasting ability for these spells.",
+                        },
+                        {
+            name: "Iceblooded Control",
+            description: "When a creature within 30 feet of you rolls a saving throw against becoming paralyzed, restrained, or incapacitated, you may use your reaction to give that creature disadvantage on that roll. You may use this ability a number of times equal to your Intelligence modifier (minimum once) per long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "winters-claw",
+        name: "Winter’s Claw",
+        description: "You were raised in blood and blizzard—among raiders, beast-hunters, and warriors who believe only strength can bring peace. You do not shy from pain; you revel in it.",
+        abilityScoreIncrease: [
+                        { key: 1, value: 1
+                        }
+                    ], // Strength +1
+        traits: [
+                        {
+            name: "Relentless Advance",
+            description: "When you take the Dash action, difficult terrain made of snow or ice does not cost you extra movement. During this movement, you may move through hostile creatures' spaces as if they were difficult terrain, provided they are no more than one size larger than you.",
+                        },
+                        {
+            name: "Savage Ferocity",
+            description: "Once per turn, when you hit a creature below its hit point maximum with a melee weapon attack, you may deal extra damage equal to your proficiency bonus.",
+                        },
+                        {
+            name: "Hunter’s Resilience",
+            description: "When you are reduced to 0 hit points but not killed outright, you may instead drop to 1 HP. Once you use this feature, you must finish a long rest to use it again.",
+                        },
+                    ],
+                },
+            ],
+        },
+        {
+    id: "ionia",
+    name: "Ionia",
+    description: "Ionia, in original Vastayan nomenclature: The First Lands, is a realm of natural magic, contemplative philosophy, and deep contradiction. Its beauty is untouched, its forests sacred, and its traditions woven with spirit and serenity. But beneath the stillness, a storm brews. The scars of the Noxian invasion still bleed, and many now question the old teachings. Militancy grows where monks once meditated. Vigilantes and spirit-callers rise alike. Ionia stands at a precipice, with peace and vengeance each offering a hand.",
+    abilityScoreIncrease: [
+                { key: 2, value: 2
+                }
+            ],
+    size: "Medium or Small",
+    speed: "30 feet",
+    languages: "Common, Ionian",
+    age: "Ionians mature slightly slower than average, often reaching adulthood by 20. Many live into their 90s or more due to their spiritual practices and harmony with nature.",
+    sizeDescription: "Most Ionians stand between 5'2\" and 6'2\", with agile, balanced builds.",
+    imageUrl: ioniaPortrait,
+    traits: [
+                {
+        name: "Spirits of the First Lands",
+        description: "You can speak to the living world. You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you cannot inherently understand them in return. You have advantage on Charisma checks made to influence them.",
+                },
+                {
+        name: "With the Flow of Destiny",
+        description: "Your soul is guided by the unseen hand of fate. When you roll a natural 1 on an attack roll, ability check, or saving throw, you may reroll the die once. You must use the new result.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "order-of-balance",
+        name: "Order of Balance",
+        description: "You were raised among monks or guardians who follow the middle path—embracing neither wrath nor detachment. These seekers of harmony draw power from stillness, and walk beside spirits and death alike.",
+        abilityScoreIncrease: [
+                        { key: 5, value: 1
+                        }
+                    ],
+        traits: [
+                        {
+            name: "Spirit Realm",
+            description: "As a bonus action, you can step into the border region of the Ethereal Plane. You remain there until the start of your next turn or until you attack, deal damage, or force a saving throw. You can use this feature once per short or long rest.",
+                        },
+                        {
+            name: "Balance in Life and Death",
+            description: "When a creature within 10 feet of you is targeted by an attack, you may use your reaction to expend one of your hit dice. The target gains temporary hit points equal to the result of the die roll. These temporary hit points are granted before the attack resolves. Once you use this feature, you cannot do so again until you finish a short or long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "order-of-shadow",
+        name: "Order of Shadow",
+        description: "You were trained in silence and steel, walking the knife's edge between survival and subversion. Followers of the Order of Shadow blend darkness with purpose—sometimes zealously, sometimes desperately.",
+        abilityScoreIncrease: [
+                        { key: 6, value: 1
+                        }
+                    ],
+        traits: [
+                        {
+            name: "Darkvision",
+            description: "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You perceive colors in darkness only as shades of gray.",
+                        },
+                        {
+            name: "One with the Shadows",
+            description: "You have advantage on Dexterity (Stealth) checks made to hide in dim light or darkness.",
+                        },
+                        {
+            name: "Contempt for the Weak",
+            description: "When you reduce a creature to 0 hit points, the next time you deal damage with a weapon attack before the end of your next turn, you deal an additional 1d6 necrotic damage. At level 9, this bonus increases to 2d6.",
+                        },
+                    ],
+                },
+                {
+        id: "spirit-of-rebellion",
+        name: "Spirit of Rebellion",
+        description: "You are fire in motion—trained in the aftermath of war, inspired by leaders like Irelia and those who won peace with blood. You channel spirit and blade alike to defy tyranny.",
+        abilityScoreIncrease: [
+                        { key: 3, value: 1
+                        }
+                    ],
+        traits: [
+                        {
+            name: "Dance with the Blades",
+            description: "You gain proficiency in Dancing Blades (a weapon unique to Ionia, see your DM). You are considered proficient with any special bladed weapon that requires grace over brute force.",
+                        },
+                        {
+            name: "Face the Enemy",
+            description: "You have advantage on saving throws against being frightened.",
+                        },
+                        {
+            name: "Against All Odds",
+            description: "When you are targeted by two or more attacks in the same turn, you may use your reaction to enter a defensive stance, gaining a bonus to your AC equal to your proficiency bonus until the start of your next turn, including against the triggering attack. You may use this feature a number of times equal to your Constitution modifier, regaining all uses after a long rest.",
+                        },
+                    ],
+                },
+            ],
+        },
+        {
+    id: "noxus",
+    name: "Noxus",
+    description: "Noxus is an empire of ambition, where strength carves destiny and weakness is an invitation to be conquered. Its citizens rise or fall on their own merit—be they soldier, schemer, sorcerer, or slave turned general. Though feared for its brutality, Noxus is a melting pot of races and talents, where anyone with the will to climb may rise. Unity, not kindness, binds it. Ruthlessness is virtue. And the empire only grows.",
+    abilityScoreIncrease: [
+                {
+        key: 1, // Strength
+        value: 1,
+                },
+            ],
+    size: "Medium",
+    speed: "30 feet",
+    languages: "Common, Noxian",
+    age: "Noxians mature like most humans, reaching adulthood in their late teens and rarely living past their seventies—unless they gain favor, fortune, or forbidden power.",
+    sizeDescription: "Noxians vary widely, from wiry assassins to mountainous warlords. Most range between 5 and 6.5 feet tall.",
+    traits: [
+                {
+        name: "Strength Above All",
+        description: "You gain proficiency in the Athletics skill. If you already have proficiency in Athletics, you instead gain expertise.",
+                },
+                {
+        name: "Bend the Knee",
+        description: "You may use Strength instead of Charisma when making Intimidation checks. Your force of will is rooted in muscle and menace.",
+                },
+                {
+        name: "Weapon Proficiency",
+        description: "You gain proficiency with greataxes, flails, and crossbows.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "guile",
+        name: "Guile",
+        description: "You are a dagger hidden in cloth, a whisper in the ear of a tyrant. Whether spy, shapeshifter, or manipulator, you trade in identity and deception—and no mask truly hides the truth for long.",
+        abilityScoreIncrease: [
+                        {
+            key: 6, // Charisma
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "A Shapeless Face",
+            description: "At the end of a short or long rest, you may magically alter your appearance, including your height by up to 1 foot and the illusion of clothing, armor, and gear. The transformation does not withstand physical inspection and may be ended as a bonus action. This ability is cosmetic only and does not confer mechanical bonuses unless used narratively.",
+                        },
+                        {
+            name: "Smoke and Mirrors",
+            description: "You are difficult to read, even to trained observers. Insight checks made against you are made at disadvantage, and the creature making the check is unaware of this fact.",
+                        },
+                        {
+            name: "We Shall Bloom Again",
+            description: "Once per long rest, you may mark a target by maintaining physical contact for 1 uninterrupted minute. The target must succeed on a Charisma saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or receive a subtle magical brand—a black rose tattoo on their right shoulder blade. You can have only one creature marked at a time. While the mark remains, you may use an action to see through the marked creature’s eyes for 1 hour. If the creature is willing or unconscious, you may also cast a cantrip through it using your own spellcasting ability modifier.",
+                        },
+                    ],
+                },
+                {
+        id: "might",
+        name: "Might",
+        description: "You are a hammer in flesh, the iron arm of the Noxian front lines. You respect strength, display strength, and build empires with your fists. In war, you are the engine.",
+        abilityScoreIncrease: [
+                        {
+            key: 3, // Constitution
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Conquer",
+            description: "As a bonus action, you may move up to half your movement speed toward a hostile creature you can see or hear. This movement does not provoke opportunity attacks, and must end closer to the target than you started. You can use this feature a number of times equal to your Strength modifier (minimum 1), regaining all uses after a long rest.",
+                        },
+                        {
+            name: "Noxian Might",
+            description: "When you score a critical hit with a melee weapon attack, you may roll one of the weapon's damage dice one additional time and add it to the damage.",
+                        },
+                        {
+            name: "Unyielding Strength",
+            description: "When you are hit by a melee weapon attack, you may use your reaction to gain temporary hit points equal to your Strength modifier (minimum 1). These temporary hit points last for up to 1 minute. You may use this feature a number of times equal to your proficiency bonus, regaining all uses after a long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "vision",
+        name: "Vision",
+        description: "You are a seer, a strategist, or a conspirator—blessed with insight that peels back the veils of fate. Whether through devotion to Swain or a gift of the Raven Lord, your eyes see what others cannot.",
+        abilityScoreIncrease: [
+                        {
+            key: 5, // Wisdom
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Vision of Empire",
+            description: "You have darkvision out to 60 feet. Once per long rest, as a bonus action, you may also see into the Ethereal Plane for 1 minute.",
+                        },
+                        {
+            name: "A Token of Raum",
+            description: "You may cast the Find Familiar spell once per long rest without material components. When you do, it always produces a raven. Wisdom is your spellcasting ability for this spell.",
+                        },
+                        {
+            name: "Speaker of Secrets",
+            description: "You have advantage on Insight checks. When you succeed on such a check, you often learn more than what was spoken—intent, hesitations, and the shadows behind lies.",
+                        },
+                    ],
+                },
+            ],
+    imageUrl: noxusPortrait,
+        },
+        {
+    id: "piltover",
+    name: "Piltover",
+    description: "Piltover is the gleaming city of progress, perched above the smog-choked depths of Zaun. Here, invention is currency, intellect is status, and innovation is religion. Hextech pulses in its streets, clockwork creations buzz through markets, and the academy towers sparkle like glass citadels. But for all its elegance, Piltover is a city built on deals, deadlines, and the fine line between ambition and arrogance.",
+    abilityScoreIncrease: [
+                {
+        key: 4, // Intelligence
+        value: 2,
+                },
+            ],
+    size: "Medium or Small",
+    speed: "30 feet",
+    languages: "Common, Piltovarian, Zaunite",
+    age: "Piltovans mature in their late teens and may live into their 80s or longer—particularly those who augment their longevity with technology or magical assistance.",
+    sizeDescription: "Piltover’s citizens range from petite researchers to towering gearwrights. You may choose Medium or Small size.",
+    traits: [
+                {
+        name: "University Knowledge",
+        description: "When making Intelligence (History) checks related to magic items, alchemical objects, or technological devices, you may add twice your proficiency bonus instead of your normal proficiency.",
+                },
+                {
+        name: "Hextech Tinkering",
+        description: "You gain proficiency with Tinker’s Tools. Using them, you may spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 HP). It functions for 24 hours, or longer if you maintain it for 1 hour per day. You may have up to three devices active at a time. When building one, choose from the following options:\n\n- Clockwork Toy: A wind-up animal or figure that moves 5 feet each turn in a random direction and makes appropriate noises.\n- Fire Starter: Produces a miniature flame that can light candles, torches, or campfires.\n- Music Box: Plays a recorded song at moderate volume. Stops when closed or finished.",
+                },
+                {
+        name: "Weapon Proficiency",
+        description: "You gain proficiency with firearms, rapiers, and short swords.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "ferros",
+        name: "Ferros",
+        description: "Clan Ferros stands as one of the oldest mercantile clans within the city, boasting a lineage that predates even the Rune Wars era, back when the city was known as Oshra Va'Zaun. It gained most of its wealth through a rare crystal harvested from the Brackern of Shurima. Utilizing certain shadow investments in chemtech and runic alchemy, the Ferros family brought to market the synthetic hex-crystals: less powerful, but easier to procure. Such power often comes with consequences, and the production of synthetic crystals is rumored to be a heavy contributor to the Zaun Gray.",
+        abilityScoreIncrease: [
+                        {
+            key: 3, // Constitution
+            value: 1,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Grayveil Aegis",
+            description: "Your belt, crowned with a crystal orb infused with Zaunite Gray, is a Ferros-made magical utility that does not consume an attunement slot. While wearing it, you gain the following spells, using Intelligence as your spellcasting ability:\n- Emergency Search Light: You can cast Dancing Lights as a cantrip.\n- Veiled Aegis: At 3rd level, you may cast Fog Cloud once per long rest.\n- Gray Dispenser: At 5th level, you may cast Pass Without Trace once per long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "kiramman",
+        name: "Kiramman",
+        description: "The Kirammans are a wealthy and influential family of hextech artificers. They are also known for their lavish lifestyle of hunting in the wilder lands outside of Piltover.",
+        abilityScoreIncrease: [
+                        {
+            key: 5, // Wisdom
+            value: 1,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Krystal Arcomonocle",
+            description: "This enchanted utility belt has a crystal orb embedded in the buckle—imbued with Hextech refinement and Zaunite Gray. It does not consume an attunement slot. While wearing it, you gain the following spells, using Intelligence as your spellcasting ability:\n- Hextinted Glasses: You can cast Guidance as a cantrip.\n- Scoped Resolution: You can cast Guiding Bolt once per long rest.\n- Hexscape Plan: At 5th level, you may cast Web once per long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "medarda",
+        name: "Medarda",
+        description: "The Merdardas command great prestige and influence due to their efforts in constructing the Sun Gates. With the revenue generated by his father's piston patents, Master Jago funded research into using hextech to speed up the operation of the Sun Gates. Heir apparent Jae preferred hunting ancient artifacts over managing the family business, much to his father's chagrin. Mel Medarda has stepped in as family council member.",
+        abilityScoreIncrease: [
+                        {
+            key: 2, // Dexterity
+            value: 1,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Medardan Sunstriders",
+            description: "You possess a pair of clan-exclusive boots combining Medardan pistons with Hextech augments. This item does not require attunement, and counts as a magical item, though it does not take up an attunement slot. While wearing it, you gain the following spells, using Intelligence as your spellcasting ability:\n- Polished Shine: You can cast Word of Radiance as a cantrip.\n- Piston Reverberation: At 3rd level, you may cast Zephyr Strike once per long rest.\n- Gravitational Hexhooks: At 5th level, you may cast Spider Climb once per long rest.",
+                        },
+                    ],
+                },
+            ],
+    imageUrl: piltoverPortrait,
+        },
+        {
+    id: "shurima",
+    name: "Shurima",
+    description: "Shurima is an ancient empire reawakening beneath the golden sands. Once shattered by betrayal, it now stirs with divine purpose, echoes of the Ascended, and whispers of tombs that never emptied. Its sunbaked dunes conceal forgotten gods, buried cities, and elemental mysteries. Life in Shurima is survival through tradition and transformation. Here, past and present wrestle beneath the sun.",
+    abilityScoreIncrease: [
+                {
+        key: 3, // Constitution
+        value: 2,
+                },
+            ],
+    size: "Medium or Small",
+    speed: "30 feet",
+    languages: "Common, Shuriman",
+    age: "Shurimans mature in their late teens and typically live into their seventies. Those blessed by ancient rites or touched by Ascended bloodlines often live longer.",
+    sizeDescription: "Shurimans have diverse ancestries and builds depending on region. You may be Medium or Small.",
+    traits: [
+                {
+        name: "Born of the Sun",
+        description: "You have resistance to fire damage and suffer no penalties from extreme heat. You are considered acclimated to desert environments and have advantage on Survival checks made to forage or navigate in arid regions.",
+                },
+                {
+        name: "Echoes of Empire",
+        description: "When making a History, Religion, or Arcana check related to ancient ruins, Shuriman gods, or Ascended lore, you may roll the check with advantage. You may do this a number of times equal to your proficiency bonus per long rest.",
+                },
+                {
+        name: "Weapon Proficiency",
+        description: "You gain proficiency with scimitars, spears, slings, and quarterstaffs.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "ascended-blooded",
+        name: "Ascended Blooded",
+        description: "You bear a sliver of divine power within your blood—descended from those who once stood beneath the Sun Disc. You walk with fire in your soul, destiny in your bones, and healing in your hand.",
+        abilityScoreIncrease: [
+                        {
+            key: 6, // Charisma
+            value: 1,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Radiant Legacy",
+            description: "You know the Light cantrip. At 3rd level, you may cast Shield of Faith once per long rest. At 5th level, you may cast Lesser Restoration once per long rest. Charisma is your spellcasting ability.",
+                        },
+                        {
+            name: "Burning Judgment",
+            description: "When you deal radiant damage with a spell or ability, you may add your Charisma modifier as bonus damage once per turn. You may use this ability a number of times equal to your proficiency bonus per long rest.",
+                        },
+                        {
+            name: "Glory-Bound",
+            description: "When an ally within 10 feet of you is reduced to 0 hit points, you may use your reaction to grant them advantage on their next death saving throw. You may use this feature once per long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "children-of-the-tomb",
+        name: "Children of the Tomb",
+        description: "You are touched by the dead—an heir to crypts, tomb-cults, or eternal oaths unfulfilled. Whether keeper or cursed, you walk between sun and shadow.",
+        abilityScoreIncrease: [
+                        {
+            key: 4, // Intelligence
+            value: 1,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Dustwalker’s Presence",
+            description: "You have darkvision out to 60 feet, but all you see is washed in faded, sepia hues, as though looking through layers of sand and time.",
+                        },
+                        {
+            name: "Sands of Sleep",
+            description: "You know the Mage Hand cantrip which appears as bone, dust, or fragments of stone. At 3rd level, you may cast Sleep once per long rest. At 5th level, you may cast Silence once per long rest. Intelligence is your spellcasting ability for these spells.",
+                        },
+                        {
+            name: "Gravebind",
+            description: "When you reduce a creature to 0 hit points, you may harvest a sliver of its soul. You gain temporary hit points equal to your Intelligence modifier + your proficiency bonus. You may use this feature a number of times equal to your proficiency bonus per long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "dunespeaker",
+        name: "Dunespeaker",
+        description: "You are a desert nomad or elemental adept—shaped by the storms, sand, and silence of Shurima’s great expanses. You commune with nature in her most relentless form.",
+        abilityScoreIncrease: [
+                        {
+            key: 5, // Wisdom
+            value: 1,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Desert Speaker",
+            description: "You gain proficiency in Survival. In addition, you may cast Speak with Animals as a ritual, but only to communicate with desert-dwelling creatures (such as jackals, snakes, scorpions, and vultures).",
+                        },
+                        {
+            name: "Dune Magic",
+            description: "You know the Mold Earth cantrip. At 3rd level, you may cast Create or Destroy Water once per long rest. At 5th level, you may cast Dust Devil once per long rest. Wisdom is your spellcasting ability.",
+                        },
+                        {
+            name: "Sandstep",
+            description: "Whenever you move on rocky terrain, your movement speed is increased by 10 feet. When you Dash across such terrain, you leave behind a swirl of sand in your space until the start of your next turn, which counts as difficult terrain for others.",
+                        },
+                    ],
+                },
+            ],
+    imageUrl: shurimaPortrait,
+        },
+        {
+    id: "vastayan",
+    name: "Vastayan",
+    description: "Vastaya are the children of spirit and mortal—wildly diverse in form, heritage, and belief. Scattered across Runeterra, these beings are living echoes of primal magic. From sky-soaring tribes to oceanic clans and terrestrial hunters, each Vastayan group guards its ancestral bond to nature, often clashing with the modern world. To be Vastaya is to embody freedom, instinct, and the breath of the wild itself.",
+    abilityScoreIncrease: [
+                {
+        key: 6, // Charisma
+        value: 1,
+                },
+            ],
+    size: "Medium or Small",
+    speed: "30 feet",
+    languages: "Common, Vastayan",
+    age: "Vastaya are long-lived and slow to age, often reaching maturity by 25 and living several centuries. Particularly powerful Vastaya have been known to endure for a millennium.",
+    sizeDescription: "Vastaya vary widely. Some stand no taller than 4 feet, while others exceed 7 feet in height. You may be Medium or Small.",
+    traits: [
+                {
+        name: "Inner Magic",
+        description: "You are a being of magic incarnate. You have advantage on saving throws against being charmed or frightened by magical effects.",
+                },
+                {
+        name: "Attune with the Spirits",
+        description: "You may enter a meditative trance instead of sleeping, remaining semiconscious for 4 hours and gaining the benefits of a long rest. During this time, you often experience visions, ancestral memories, or spirit conversations.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "land-tribe",
+        name: "Land Tribe Vastayan",
+        description: "Bred from forest and stone, Land Tribe are swift hunters. Claws tearing through underbrush, moves measured yet fierce—they live for the hunt, for dance with the earth and blood-streaked twilight.",
+        abilityScoreIncrease: [
+                        {
+            key: 2, // Dexterity
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Grace of the Land",
+            description: "Your base walking speed increases to 35 feet. Additionally, you ignore difficult terrain when outdoors.",
+                        },
+                        {
+            name: "The Quickness",
+            description: "Your reflexes and agility grant you a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you cannot use it again until you move 0 feet on one of your turns.",
+                        },
+                        {
+            name: "Sharp Claws",
+            description: "From a young age, you have grown sharp, formidable claws. You can use these claws to make unarmed strikes. On a hit, you deal slashing damage equal to 1d4 + your Dexterity modifier, instead of the bludgeoning damage normal for an unarmed strike.\nYou also learn the Primal Savagery cantrip, and your claws do not disappear when the spell ends. Charisma is your spellcasting ability for this spell.",
+                        },
+                    ],
+                },
+                {
+        id: "sea-tribe",
+        name: "Sea Tribe Vastayan",
+        description: "Born of tides and moonlight, Sea Tribe Vastaya drift between two worlds. They weave water into song and solace, whispering with whales and dolphins while guiding vessels through treachery and reef.",
+        abilityScoreIncrease: [
+                        {
+            key: 5, // Wisdom
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Grace of the Sea",
+            description: "Your base walking speed decreases to 25 feet. You have a swimming speed of 30 feet, and you can breathe air and water.",
+                        },
+                        {
+            name: "Moonstone Magic",
+            description: "You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Once you reach 5th level, you can cast the Water Breathing spell once with this trait. Wisdom is your spellcasting ability for these spells.",
+                        },
+                        {
+            name: "Eyes of the Deep",
+            description: "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.",
+                        },
+                    ],
+                },
+                {
+        id: "sky-tribe",
+        name: "Sky Tribe Vastayan",
+        description: "You descend from the thunder-soaring clans—spirit kin of hawks, falcons, or storm spirits. Your people move as dancers in the sky and whisper to the wind as if it were kin. You are light, swift, and hard to catch—your heart beats with stormlight.",
+        abilityScoreIncrease: [
+                        {
+            key: 3, // Constitution
+            value: 2,
+                        },
+                    ],
+        traits: [
+                        {
+            name: "Grace of the Skies",
+            description: "You can glide through the air using extended leaps or when falling. You have the following benefits:\n\n- When falling, you may use your reaction to activate your glide. While gliding, you fall at a rate of 10 feet per round, and you may move 2 feet horizontally for every 1 foot you descend. You do not take fall damage if you land while gliding.\n- If you move at least 10 feet on your turn and then jump, you may extend the jump by an additional 10 feet and descend slowly over the jump arc.\n- You must have at least one hand or arm free to glide properly.\n- You cannot hover or gain elevation without magical means.",
+                        },
+                        {
+            name: "Dance with the Wind",
+            description: "You know the Thunderclap cantrip. At 3rd level, you may cast Gust of Wind once per long rest. Charisma is your spellcasting ability for these spells.",
+                        },
+                        {
+            name: "The Name of the Wind",
+            description: "Once per short rest, when you roll initiative or take the Dash action, you may call upon the wind to guide or protect you. Until the end of your next turn:\n\n- Your movement speed increases by 10 feet.\n- You do not provoke opportunity attacks.\n- You may move through enemy spaces as difficult terrain, so long as they are not two sizes larger than you.\n- If you move at least 20 feet in a straight line, you may disengage as a bonus action that turn.\n\nThis effect reflects your whispered understanding of wind—not as a spell, but as a moment of elemental synchronicity.",
+                        },
+                    ],
+                },
+            ],
+    imageUrl: vastayaPortrait,
+        },
+        {
+    id: "zaun",
+    name: "Zaun",
+    description: "Zaun is the underbelly of Piltover—alive, decaying, and defiant. A city of industrial rebellion and radical innovation, Zaun runs on shimmer, fumes, and survival instinct. Its streets are dense with alchemical haze and its people stitched together with grit and chemistry. Whether born in a refinery, back-alley lab, or resistance cell, Zaunites are shaped by necessity and sharpened by ambition.",
+    abilityScoreIncrease: [
+                { key: 3, value: 1
+                }, // Constitution +1
+            ],
+    size: "Medium or Small",
+    speed: "30 feet",
+    languages: "Common, Zaunite, Piltovarian",
+    age: "Zaunites mature quickly, often by 15, and few live long lives. Alchemical augmentation or shimmer dependence sometimes extends or mutilates their lifespans.",
+    sizeDescription: "Zaun produces every kind of person—gaunt chem-addicts, burly enforcers, agile rooftop rebels. You may be Medium or Small.",
+    traits: [
+                {
+        name: "Street Rat",
+        description: "You gain proficiency in one of the following skills: Survival, Stealth, Sleight of Hand, or Acrobatics.",
+                },
+                {
+        name: "Chemtech Fumes",
+        description: "Years of exposure to toxic environments have hardened your body. You have advantage on saving throws against poison, and resistance to poison damage.",
+                },
+            ],
+    subOrigins: [
+                {
+        id: "chemtech-cultist",
+        name: "Chemtech Cultist",
+        description: "You are a believer in transformation—not of spirit, but of flesh and function. Whether part of a shimmer-fueled sect or a solo visionary, you’ve replaced weakness with wiring.",
+        abilityScoreIncrease: [
+                        { key: 1, value: 2
+                        }
+                    ], // Strength +2
+        traits: [
+                        {
+            name: "Chemtech Augments",
+            description: "At 1st level, you have permanently installed one of the following augmentations:\n\n" +
+              "- Jetlegs: Your legs are fused with burst propulsion. When you fall and are not incapacitated, you may subtract up to 100 feet from the fall when calculating damage, and move 2 feet horizontally for every 1 foot you descend.\n" +
+              "- Backspikes: Reinforced grapples grant you a climbing speed equal to your walking speed.\n" +
+              "- Amphibious Coalescer: You can breathe air and water and gain a swimming speed equal to your walking speed.\n\n" +
+              "At 5th level, choose one additional augmentation:\n\n" +
+              "- Shimmerfueled Claws: You grow two natural weapons. As an action, you may attack with them. On a hit, they deal 1d6 bludgeoning damage + your Strength modifier, and you may attempt to grapple the target as a bonus action. These claws cannot hold or wield items.\n" +
+              "- Armored Plating: Your body is overlaid with metal reinforcement. You gain a +1 bonus to AC while not wearing heavy armor.\n" +
+              "- Chemtech Burstpipe: You may use an action to spray acid from your mouth, targeting a creature within 30 feet. The target takes 2d10 acid damage on a failed Dexterity save (DC = 8 + Con mod + proficiency bonus). The damage increases to 3d10 at level 11, and 4d10 at level 17. You may use this feature a number of times equal to your Constitution modifier per long rest.",
+                        },
+                    ],
+                },
+                {
+        id: "entresol-scrapper",
+        name: "Entresol Scrapper",
+        description: "You are a maker and fighter by necessity—a child of rust, grime, and makeshift brilliance. In the shadows of Piltovan towers, you’ve built your own survival toolkit.",
+        abilityScoreIncrease: [
+                        { key: 4, value: 2
+                        }
+                    ], // Intelligence +2
+        traits: [
+                        {
+            name: "Scrap Expertise",
+            description: "You gain proficiency with tinker's tools or alchemist’s supplies. You may use a bonus action to dismantle a Tiny object within 5 feet and repurpose it into one simple mechanical device that lasts for 1 hour or until used. These include:\n\n" +
+              "- Flarebomb: Explodes in light; forces nearby creatures to make a DC 12 Con save or be blinded until the start of their next turn.\n" +
+              "- Glue Mine: Targets must make a DC 12 Dexterity save or be restrained until they use an action to escape.\n" +
+              "- Smokestick: Creates a 10-foot-radius cloud of smoke that provides heavily obscured cover for 1 round.\n\n" +
+              "You may create one such device per long rest or more if you spend 25 gp in scrap material.",
+                        },
+                        {
+            name: "Zaunite Resilience",
+            description: "Once per long rest, when you would be reduced to 0 HP, you may instead drop to 1 HP, as your body surges with last-ditch chemicals or sheer willpower.",
+                        },
+                    ],
+                },
+                {
+        id: "firelight",
+        name: "Firelight",
+        description: "You are one of the luminous insurgents who resist both Noxian tyranny and Zaunite exploitation. Whether part of an active Firelight cell or simply inspired by their cause, you fight for the spark of freedom in a world suffocating in smoke. You carry the signature tools of a rebel—worn tech, ghostlight bombs, and the will to soar.",
+        abilityScoreIncrease: [
+                        { key: 2, value: 2
+                        }
+                    ], // Dexterity +2
+        traits: [
+                        {
+            name: "Firelight Mask",
+            description: "You carry a distinctive, visor-like mask augmented by scavenged Hextech and shimmer-glass lenses. While wearing it, you have darkvision out to 60 feet. If you already have darkvision from another source, the mask’s darkvision extends to 90 feet, or you use the other source—whichever is greater.",
+                        },
+                        {
+            name: "Hoverboard",
+            description: "You possess a partially functional Firelight hoverboard, powered by unstable shimmer cores. At level 1, you may use a bonus action to activate the board for 1 minute.\n\n" +
+              "While active:\n" +
+              "- You hover 1 foot above the ground.\n" +
+              "- Your movement speed increases by 10 feet.\n" +
+              "- You ignore nonmagical difficult terrain and may move over water or narrow ledges.\n" +
+              "- If the board’s duration expires, you glide gently to the ground, landing safely in the nearest unoccupied space.\n\n" +
+              "You may activate the hoverboard a number of times equal to your proficiency bonus per long rest.\n\n" +
+              "At level 5, you have managed to upgrade and restore your hoverboard. While active, you may choose to hover up to 10 feet above the ground, maintaining the other benefits. You may not hover above empty air or vertical surfaces. If the board’s power ends while mid-hover, you glide safely down.",
+                        },
+                        {
+            name: "Guerrilla Spark",
+            description: "Once per short rest, when you take the Disengage action, you may detonate a shimmer flare that affects enemies around you. All creatures within 5 feet of you when you disengage take 1d4 fire damage.",
+                        },
+                    ],
+                },
+            ],
+    imageUrl: zaunPortrait,
+        },
+    ]
+}
