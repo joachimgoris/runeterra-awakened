@@ -3,3 +3,5 @@ interface SectionCardProps {
   description: string;
   path: string;
 }
+
+export default SectionCardProps;

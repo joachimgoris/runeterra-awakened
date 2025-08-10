@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import SectionCardProps from "./sectioncardprops";
 
 const SectionCard: React.FC<SectionCardProps> = ({
   title,

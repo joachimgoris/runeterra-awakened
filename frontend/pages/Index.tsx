@@ -1,20 +1,20 @@
 import React from "react";
 import {
-    Sparkles,
-    Book,
-    Users,
-    Sword,
-    Shield,
-    Package,
-    Settings
+  Sparkles,
+  Book,
+  Users,
+  Sword,
+  Shield,
+  Package,
+  Settings,
 } from "lucide-react";
-import { } from "@/components/sectioncard/sectioncard";
+import SectionCard from "@/components/sectioncard/sectioncard";
 // import { origins } from "@/data/origins.json";
 import heroImage from "@/assets/overview-map.jpg";
 
 const Index: React.FC = () => {
-    return (
-       <div className="min-h-screen bg-gradient-hero">
+  return (
+    <div className="min-h-screen bg-gradient-hero">
       {/* Hero Section */}
       <div
         className="relative h-96 bg-cover bg-center"
